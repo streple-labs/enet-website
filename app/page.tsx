@@ -2,21 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { montserrat } from "@/app/fonts";
+import Navbar from "@/components/navbar/Navbar";
 
 export default function Home() {
-  const pathname = usePathname();
-
-  const navItems = [
-    { href: "/", label: "Home" },
-    { href: "/about", label: "About" },
-    { href: "/services", label: "Services" },
-    { href: "/solution", label: "Solution" },
-    { href: "/blog", label: "Blog" },
-    { href: "/contact", label: "Contact Us" },
-  ];
-
   const cards = [
     {
       icon: "/sheild.png",
@@ -66,44 +55,9 @@ export default function Home() {
 
   return (
     <main className="flex flex-col">
-      {/* Hero Section */}
       <section className="homepage-hero-bg">
-        {/* Navbar */}
-        <div className="flex flex-row items-center bg-[#0000001A] backdrop-blur-[50px] py-[20px] px-[80px] w-full justify-between">
-          <Link href={"/"}>
-            <Image
-              loading="lazy"
-              src="/enet-logo-nav.png"
-              alt="navbar logo"
-              width={160}
-              height={51}
-            />
-          </Link>
+        <Navbar />
 
-          <div className="flex flex-row items-center gap-12 font-normal text-[18px] leading-[100%] tracking-[0%] capitalize text-white">
-            {navItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={`${pathname === item.href
-                  ? "font-bold uppercase"
-                  : "font-normal capitalize"
-                  }`}
-              >
-                {item.label}
-              </Link>
-            ))}
-          </div>
-
-          <Link
-            href={"#"}
-            className="py-[12px] px-[26px] border border-white rounded-[8px] font-bold text-[18px] leading-[100%] tracking-[0%] text-white"
-          >
-            Book a Call
-          </Link>
-        </div>
-
-        {/* Hero Content */}
         <div className="flex flex-row w-full justify-between mt-10">
           <div className="flex flex-col gap-[30px] mt-10 ml-26">
             <h1 className={`${montserrat.className} font-bold text-[70px] leading-[90px] tracking-[0%] text-white`}>
@@ -138,7 +92,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Our Services */}
       <section className="bg-[#030E14] py-[59px]">
         <div className="flex flex-col gap-[18px]">
           <span className="font-semibold text-[21px] leading-[24px] tracking-[0%] text-center text-[#00C853]">OUR SERVICES</span>
