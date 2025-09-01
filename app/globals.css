@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  background: #030E14;
+  color: #ffffff;
+}
+
+.homepage-hero-bg {
+  background-image: url('../public/homepage-hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.why-enet-bg {
+  background-image: url('../public/why-enet-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
