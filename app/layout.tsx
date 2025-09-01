@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { openSans } from "@/app/fonts";
 import "./globals.css";
+import Footer from "@/components/layout/footer";
 
 export const metadata: Metadata = {
   title: "ENET - Innovate Securely, Scale Fearlessly.",
-  description: "Enet Technologies empowers businesses to stay secure, scale faster, and comply effortlessly with next-gen cybersecurity, cloud solutions, and DevSecOps.",
+  description:
+    "Enet Technologies empowers businesses to stay secure, scale faster, and comply effortlessly with next-gen cybersecurity, cloud solutions, and DevSecOps.",
 };
 
 export default function RootLayout({
@@ -14,10 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${openSans.className} antialiased`}
-      >
+      <body className={`${openSans.className} antialiased`}>
         {children}
+        <Footer />
       </body>
     </html>
   );
