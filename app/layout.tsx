@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { openSans } from "@/app/fonts";
 import "./globals.css";
 import Footer from "@/components/layout/footer";
+import Navbar from "@/components/layout/navbar";
 
 export const metadata: Metadata = {
   title: "ENET - Innovate Securely, Scale Fearlessly.",
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${openSans.className} antialiased`}>
+        <Navbar />
         {children}
         <Footer />
       </body>

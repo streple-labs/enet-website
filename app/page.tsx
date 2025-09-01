@@ -55,9 +55,6 @@ export default function page() {
     <main className="flex flex-col">
       {/* Hero Section */}
       <section className="homepage-hero-bg">
-        {/* Navbar */}
-        <Navbar />
-
         {/* Hero Content */}
         <div className="flex flex-row w-full justify-between mt-10">
           <div className="flex flex-col gap-[30px] mt-10 ml-26">

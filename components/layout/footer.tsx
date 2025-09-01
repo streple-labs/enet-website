@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="relative overflow-hidden py-[116px] px-[80px] w-full flex justify-between mw">
       <p
-        className={`${montserrat.className} opacity-[7%] font-extrabold text-[120px] tracking-[4%] absolute -bottom-12`}
+        className={`${montserrat.className} opacity-[7%] font-extrabold text-[120px] tracking-[4%] absolute -bottom-12 whitespace-nowrap left-[7.5%]`}
       >
         Enet Technologies
       </p>
