@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 export default function Navbar() {
     const pathname = usePathname();
@@ -29,10 +30,10 @@ export default function Navbar() {
                     />
                 </Link>
 
-                <div className="flex flex-row items-center gap-12 font-normal text-[18px] leading-[100%] tracking-[0%] capitalize text-white">
+                <div className="flex flex-row items-center gap-12 font-normal text-[18px] leading-[100%] tracking-[0%] text-white">
                     {navItems.map((item) => (
                         <Link
-                            key={item.href}
+                            key={item.label}
                             href={item.href}
                             className={`${pathname === item.href
                                 ? "font-bold uppercase"
