@@ -103,9 +103,9 @@ export default function page() {
                 width="1072.97"
                 height="962.264"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"
@@ -115,45 +115,6 @@ export default function page() {
                 <feGaussianBlur
                   stdDeviation="175"
                   result="effect1_foregroundBlur_173_2432"
-                />
-              </filter>
-            </defs>
-          </svg>
-        </span>
-        <span className="hidden lg:block absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
-          <svg
-            width="1074"
-            height="586"
-            viewBox="0 0 1074 586"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g filter="url(#filter0_f_173_1906)">
-              <path
-                d="M682.259 150.846C774.148 98.4037 704.11 -78.7134 560.536 -12.4279L511.24 8.97431L351.3 97.1841C347.319 122.299 360.824 219.455 459.298 235.101C478.537 238.158 671.445 157.018 682.259 150.846Z"
-                fill="#004C99"
-              />
-            </g>
-            <defs>
-              <filter
-                id="filter0_f_173_1906"
-                x="0.696289"
-                y="-377.079"
-                width="1072.97"
-                height="962.264"
-                filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
-              >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                <feBlend
-                  mode="normal"
-                  in="SourceGraphic"
-                  in2="BackgroundImageFix"
-                  result="shape"
-                />
-                <feGaussianBlur
-                  stdDeviation="175"
-                  result="effect1_foregroundBlur_173_1906"
                 />
               </filter>
             </defs>
@@ -181,9 +142,9 @@ export default function page() {
                 width="1072.97"
                 height="962.264"
                 filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
+                colorInterpolationFilters="sRGB"
               >
-                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
                 <feBlend
                   mode="normal"
                   in="SourceGraphic"

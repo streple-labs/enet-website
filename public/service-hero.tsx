@@ -2087,8 +2087,8 @@ export default function ServicePageHeroImg() {
           y2="254.1"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.39" stop-color="#3130A7" />
-          <stop offset="1" stop-color="#949FF0" />
+          <stop offset="0.39" stopColor="#3130A7" />
+          <stop offset="1" stopColor="#949FF0" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_173_1920"
@@ -2098,8 +2098,8 @@ export default function ServicePageHeroImg() {
           y2="170.394"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.39" stop-color="#3130A7" />
-          <stop offset="1" stop-color="#BFC3EF" />
+          <stop offset="0.39" stopColor="#3130A7" />
+          <stop offset="1" stopColor="#BFC3EF" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_173_1920"
@@ -2109,8 +2109,8 @@ export default function ServicePageHeroImg() {
           y2="151.261"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.39" stop-color="#3130A7" />
-          <stop offset="1" stop-color="#BFC3EF" />
+          <stop offset="0.39" stopColor="#3130A7" />
+          <stop offset="1" stopColor="#BFC3EF" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_173_1920"
@@ -2120,8 +2120,8 @@ export default function ServicePageHeroImg() {
           y2="153.986"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.39" stop-color="#3130A7" />
-          <stop offset="1" stop-color="#BFC3EF" />
+          <stop offset="0.39" stopColor="#3130A7" />
+          <stop offset="1" stopColor="#BFC3EF" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_173_1920"
@@ -2131,8 +2131,8 @@ export default function ServicePageHeroImg() {
           y2="248"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.39" stop-color="#3130A7" />
-          <stop offset="1" stop-color="#727ED0" />
+          <stop offset="0.39" stopColor="#3130A7" />
+          <stop offset="1" stopColor="#727ED0" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_173_1920"
@@ -2142,9 +2142,9 @@ export default function ServicePageHeroImg() {
           y2="317.45"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#171387" />
-          <stop offset="0.39" stop-color="#257DD5" />
-          <stop offset="1" stop-color="#A4C6E8" />
+          <stop stopColor="#171387" />
+          <stop offset="0.39" stopColor="#257DD5" />
+          <stop offset="1" stopColor="#A4C6E8" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_173_1920"
@@ -2154,8 +2154,8 @@ export default function ServicePageHeroImg() {
           y2="258.272"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_173_1920"
@@ -2165,8 +2165,8 @@ export default function ServicePageHeroImg() {
           y2="252.963"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_173_1920"
@@ -2176,8 +2176,8 @@ export default function ServicePageHeroImg() {
           y2="247.654"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_173_1920"
@@ -2187,8 +2187,8 @@ export default function ServicePageHeroImg() {
           y2="242.345"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_173_1920"
@@ -2198,8 +2198,8 @@ export default function ServicePageHeroImg() {
           y2="237.036"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_173_1920"
@@ -2209,8 +2209,8 @@ export default function ServicePageHeroImg() {
           y2="231.727"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_173_1920"
@@ -2220,8 +2220,8 @@ export default function ServicePageHeroImg() {
           y2="226.418"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_173_1920"
@@ -2231,8 +2231,8 @@ export default function ServicePageHeroImg() {
           y2="221.108"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_173_1920"
@@ -2242,8 +2242,8 @@ export default function ServicePageHeroImg() {
           y2="215.799"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_173_1920"
@@ -2253,8 +2253,8 @@ export default function ServicePageHeroImg() {
           y2="210.49"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_173_1920"
@@ -2264,8 +2264,8 @@ export default function ServicePageHeroImg() {
           y2="205.181"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_173_1920"
@@ -2275,8 +2275,8 @@ export default function ServicePageHeroImg() {
           y2="199.872"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_173_1920"
@@ -2286,8 +2286,8 @@ export default function ServicePageHeroImg() {
           y2="194.563"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_173_1920"
@@ -2297,8 +2297,8 @@ export default function ServicePageHeroImg() {
           y2="189.254"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_173_1920"
@@ -2308,8 +2308,8 @@ export default function ServicePageHeroImg() {
           y2="183.945"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_173_1920"
@@ -2319,8 +2319,8 @@ export default function ServicePageHeroImg() {
           y2="178.636"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_173_1920"
@@ -2330,8 +2330,8 @@ export default function ServicePageHeroImg() {
           y2="173.326"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_173_1920"
@@ -2341,8 +2341,8 @@ export default function ServicePageHeroImg() {
           y2="262.864"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_173_1920"
@@ -2352,8 +2352,8 @@ export default function ServicePageHeroImg() {
           y2="256.638"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_173_1920"
@@ -2363,8 +2363,8 @@ export default function ServicePageHeroImg() {
           y2="250.706"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_173_1920"
@@ -2374,8 +2374,8 @@ export default function ServicePageHeroImg() {
           y2="244.774"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_173_1920"
@@ -2385,8 +2385,8 @@ export default function ServicePageHeroImg() {
           y2="238.842"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_173_1920"
@@ -2396,8 +2396,8 @@ export default function ServicePageHeroImg() {
           y2="232.91"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_173_1920"
@@ -2407,8 +2407,8 @@ export default function ServicePageHeroImg() {
           y2="226.978"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_173_1920"
@@ -2418,8 +2418,8 @@ export default function ServicePageHeroImg() {
           y2="221.045"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_173_1920"
@@ -2429,8 +2429,8 @@ export default function ServicePageHeroImg() {
           y2="215.113"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_173_1920"
@@ -2440,8 +2440,8 @@ export default function ServicePageHeroImg() {
           y2="209.181"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_173_1920"
@@ -2451,8 +2451,8 @@ export default function ServicePageHeroImg() {
           y2="203.249"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_173_1920"
@@ -2462,8 +2462,8 @@ export default function ServicePageHeroImg() {
           y2="197.317"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_173_1920"
@@ -2473,8 +2473,8 @@ export default function ServicePageHeroImg() {
           y2="191.385"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_173_1920"
@@ -2484,8 +2484,8 @@ export default function ServicePageHeroImg() {
           y2="182.171"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_173_1920"
@@ -2495,8 +2495,8 @@ export default function ServicePageHeroImg() {
           y2="266.495"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_173_1920"
@@ -2506,8 +2506,8 @@ export default function ServicePageHeroImg() {
           y2="258.273"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_173_1920"
@@ -2517,8 +2517,8 @@ export default function ServicePageHeroImg() {
           y2="252.341"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_173_1920"
@@ -2528,8 +2528,8 @@ export default function ServicePageHeroImg() {
           y2="246.409"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_173_1920"
@@ -2539,8 +2539,8 @@ export default function ServicePageHeroImg() {
           y2="240.477"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_173_1920"
@@ -2550,8 +2550,8 @@ export default function ServicePageHeroImg() {
           y2="234.545"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_173_1920"
@@ -2561,8 +2561,8 @@ export default function ServicePageHeroImg() {
           y2="228.613"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_173_1920"
@@ -2572,8 +2572,8 @@ export default function ServicePageHeroImg() {
           y2="222.681"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_173_1920"
@@ -2583,8 +2583,8 @@ export default function ServicePageHeroImg() {
           y2="216.749"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_173_1920"
@@ -2594,8 +2594,8 @@ export default function ServicePageHeroImg() {
           y2="210.816"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_173_1920"
@@ -2605,8 +2605,8 @@ export default function ServicePageHeroImg() {
           y2="204.884"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_173_1920"
@@ -2616,8 +2616,8 @@ export default function ServicePageHeroImg() {
           y2="198.952"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_173_1920"
@@ -2627,8 +2627,8 @@ export default function ServicePageHeroImg() {
           y2="193.02"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint50_linear_173_1920"
@@ -2638,8 +2638,8 @@ export default function ServicePageHeroImg() {
           y2="185.53"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint51_linear_173_1920"
@@ -2649,8 +2649,8 @@ export default function ServicePageHeroImg() {
           y2="270.602"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint52_linear_173_1920"
@@ -2660,8 +2660,8 @@ export default function ServicePageHeroImg() {
           y2="261.324"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint53_linear_173_1920"
@@ -2671,8 +2671,8 @@ export default function ServicePageHeroImg() {
           y2="255.392"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint54_linear_173_1920"
@@ -2682,8 +2682,8 @@ export default function ServicePageHeroImg() {
           y2="249.46"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint55_linear_173_1920"
@@ -2693,8 +2693,8 @@ export default function ServicePageHeroImg() {
           y2="243.528"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint56_linear_173_1920"
@@ -2704,8 +2704,8 @@ export default function ServicePageHeroImg() {
           y2="237.596"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint57_linear_173_1920"
@@ -2715,8 +2715,8 @@ export default function ServicePageHeroImg() {
           y2="231.664"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint58_linear_173_1920"
@@ -2726,8 +2726,8 @@ export default function ServicePageHeroImg() {
           y2="225.732"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint59_linear_173_1920"
@@ -2737,8 +2737,8 @@ export default function ServicePageHeroImg() {
           y2="219.799"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint60_linear_173_1920"
@@ -2748,8 +2748,8 @@ export default function ServicePageHeroImg() {
           y2="213.867"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint61_linear_173_1920"
@@ -2759,8 +2759,8 @@ export default function ServicePageHeroImg() {
           y2="207.935"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint62_linear_173_1920"
@@ -2770,8 +2770,8 @@ export default function ServicePageHeroImg() {
           y2="202.003"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint63_linear_173_1920"
@@ -2781,8 +2781,8 @@ export default function ServicePageHeroImg() {
           y2="192.789"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint64_linear_173_1920"
@@ -2792,8 +2792,8 @@ export default function ServicePageHeroImg() {
           y2="274.846"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint65_linear_173_1920"
@@ -2803,8 +2803,8 @@ export default function ServicePageHeroImg() {
           y2="264.333"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint66_linear_173_1920"
@@ -2814,8 +2814,8 @@ export default function ServicePageHeroImg() {
           y2="258.401"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint67_linear_173_1920"
@@ -2825,8 +2825,8 @@ export default function ServicePageHeroImg() {
           y2="252.469"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint68_linear_173_1920"
@@ -2836,8 +2836,8 @@ export default function ServicePageHeroImg() {
           y2="246.536"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint69_linear_173_1920"
@@ -2847,8 +2847,8 @@ export default function ServicePageHeroImg() {
           y2="240.604"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint70_linear_173_1920"
@@ -2858,8 +2858,8 @@ export default function ServicePageHeroImg() {
           y2="234.672"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint71_linear_173_1920"
@@ -2869,8 +2869,8 @@ export default function ServicePageHeroImg() {
           y2="228.74"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint72_linear_173_1920"
@@ -2880,8 +2880,8 @@ export default function ServicePageHeroImg() {
           y2="222.808"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint73_linear_173_1920"
@@ -2891,8 +2891,8 @@ export default function ServicePageHeroImg() {
           y2="216.876"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint74_linear_173_1920"
@@ -2902,8 +2902,8 @@ export default function ServicePageHeroImg() {
           y2="210.944"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint75_linear_173_1920"
@@ -2913,8 +2913,8 @@ export default function ServicePageHeroImg() {
           y2="199.788"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint76_linear_173_1920"
@@ -2924,8 +2924,8 @@ export default function ServicePageHeroImg() {
           y2="283.624"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint77_linear_173_1920"
@@ -2935,8 +2935,8 @@ export default function ServicePageHeroImg() {
           y2="276.99"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint78_linear_173_1920"
@@ -2946,8 +2946,8 @@ export default function ServicePageHeroImg() {
           y2="271.058"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint79_linear_173_1920"
@@ -2957,8 +2957,8 @@ export default function ServicePageHeroImg() {
           y2="265.126"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint80_linear_173_1920"
@@ -2968,8 +2968,8 @@ export default function ServicePageHeroImg() {
           y2="248.148"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint81_linear_173_1920"
@@ -2979,8 +2979,8 @@ export default function ServicePageHeroImg() {
           y2="230.418"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint82_linear_173_1920"
@@ -2990,8 +2990,8 @@ export default function ServicePageHeroImg() {
           y2="224.486"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint83_linear_173_1920"
@@ -3001,8 +3001,8 @@ export default function ServicePageHeroImg() {
           y2="218.553"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint84_linear_173_1920"
@@ -3012,8 +3012,8 @@ export default function ServicePageHeroImg() {
           y2="212.621"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint85_linear_173_1920"
@@ -3023,8 +3023,8 @@ export default function ServicePageHeroImg() {
           y2="202.056"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint86_linear_173_1920"
@@ -3034,9 +3034,9 @@ export default function ServicePageHeroImg() {
           y2="211.475"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#171387" />
-          <stop offset="0.39" stop-color="#386EA4" />
-          <stop offset="1" stop-color="#27A0C5" />
+          <stop stopColor="#171387" />
+          <stop offset="0.39" stopColor="#386EA4" />
+          <stop offset="1" stopColor="#27A0C5" />
         </linearGradient>
         <linearGradient
           id="paint87_linear_173_1920"
@@ -3046,8 +3046,8 @@ export default function ServicePageHeroImg() {
           y2="201.03"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="1" stop-color="#3F4EB8" />
+          <stop stopColor="#3130A7" />
+          <stop offset="1" stopColor="#3F4EB8" />
         </linearGradient>
         <linearGradient
           id="paint88_linear_173_1920"
@@ -3057,9 +3057,9 @@ export default function ServicePageHeroImg() {
           y2="282.55"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#171387" />
-          <stop offset="0.39" stop-color="#1A446E" />
-          <stop offset="1" stop-color="#90B1D3" />
+          <stop stopColor="#171387" />
+          <stop offset="0.39" stopColor="#1A446E" />
+          <stop offset="1" stopColor="#90B1D3" />
         </linearGradient>
         <linearGradient
           id="paint89_linear_173_1920"
@@ -3069,9 +3069,9 @@ export default function ServicePageHeroImg() {
           y2="275.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#171387" />
-          <stop offset="0.39" stop-color="#164677" />
-          <stop offset="1" stop-color="#74A6D9" />
+          <stop stopColor="#171387" />
+          <stop offset="0.39" stopColor="#164677" />
+          <stop offset="1" stopColor="#74A6D9" />
         </linearGradient>
         <linearGradient
           id="paint90_linear_173_1920"
@@ -3081,9 +3081,9 @@ export default function ServicePageHeroImg() {
           y2="280"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="0.39" stop-color="#004C99" />
-          <stop offset="1" stop-color="#92D3FF" />
+          <stop stopColor="#3130A7" />
+          <stop offset="0.39" stopColor="#004C99" />
+          <stop offset="1" stopColor="#92D3FF" />
         </linearGradient>
         <linearGradient
           id="paint91_linear_173_1920"
@@ -3093,8 +3093,8 @@ export default function ServicePageHeroImg() {
           y2="240.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.39" stop-color="#004C99" />
-          <stop offset="1" stop-color="#88C5EF" />
+          <stop offset="0.39" stopColor="#004C99" />
+          <stop offset="1" stopColor="#88C5EF" />
         </linearGradient>
         <linearGradient
           id="paint92_linear_173_1920"
@@ -3104,8 +3104,8 @@ export default function ServicePageHeroImg() {
           y2="225.8"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.39" stop-color="#3130A7" />
-          <stop offset="1" stop-color="#727ED0" />
+          <stop offset="0.39" stopColor="#3130A7" />
+          <stop offset="1" stopColor="#727ED0" />
         </linearGradient>
         <linearGradient
           id="paint93_linear_173_1920"
@@ -3115,8 +3115,8 @@ export default function ServicePageHeroImg() {
           y2="158.107"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.39" stop-color="#3130A7" />
-          <stop offset="1" stop-color="#1BA4E5" stop-opacity="0.5" />
+          <stop offset="0.39" stopColor="#3130A7" />
+          <stop offset="1" stopColor="#1BA4E5" stop-opacity="0.5" />
         </linearGradient>
         <linearGradient
           id="paint94_linear_173_1920"
@@ -3126,11 +3126,11 @@ export default function ServicePageHeroImg() {
           y2="116.604"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="white" />
-          <stop offset="0.1517" stop-color="#939393" />
-          <stop offset="0.4438" stop-color="white" />
-          <stop offset="0.736" stop-color="#D6D6D6" />
-          <stop offset="1" stop-color="white" />
+          <stop stopColor="white" />
+          <stop offset="0.1517" stopColor="#939393" />
+          <stop offset="0.4438" stopColor="white" />
+          <stop offset="0.736" stopColor="#D6D6D6" />
+          <stop offset="1" stopColor="white" />
         </linearGradient>
         <linearGradient
           id="paint95_linear_173_1920"
@@ -3140,8 +3140,8 @@ export default function ServicePageHeroImg() {
           y2="150.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.39" stop-color="#3130A7" />
-          <stop offset="1" stop-color="#949FF0" />
+          <stop offset="0.39" stopColor="#3130A7" />
+          <stop offset="1" stopColor="#949FF0" />
         </linearGradient>
         <linearGradient
           id="paint96_linear_173_1920"
@@ -3151,8 +3151,8 @@ export default function ServicePageHeroImg() {
           y2="158.071"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.39" stop-color="#3130A7" />
-          <stop offset="1" stop-color="#9186CF" />
+          <stop offset="0.39" stopColor="#3130A7" />
+          <stop offset="1" stopColor="#9186CF" />
         </linearGradient>
         <linearGradient
           id="paint97_linear_173_1920"
@@ -3162,9 +3162,9 @@ export default function ServicePageHeroImg() {
           y2="150.6"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="0.39" stop-color="#004C99" />
-          <stop offset="1" stop-color="#92D3FF" />
+          <stop stopColor="#3130A7" />
+          <stop offset="0.39" stopColor="#004C99" />
+          <stop offset="1" stopColor="#92D3FF" />
         </linearGradient>
         <linearGradient
           id="paint98_linear_173_1920"
@@ -3174,11 +3174,11 @@ export default function ServicePageHeroImg() {
           y2="288.742"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#3130A7" />
-          <stop offset="0.2477" stop-color="#171387" />
-          <stop offset="0.5287" stop-color="#3130A7" />
-          <stop offset="0.8249" stop-color="#2A2972" />
-          <stop offset="1" stop-color="#333A82" />
+          <stop stopColor="#3130A7" />
+          <stop offset="0.2477" stopColor="#171387" />
+          <stop offset="0.5287" stopColor="#3130A7" />
+          <stop offset="0.8249" stopColor="#2A2972" />
+          <stop offset="1" stopColor="#333A82" />
         </linearGradient>
         <linearGradient
           id="paint99_linear_173_1920"
@@ -3188,9 +3188,9 @@ export default function ServicePageHeroImg() {
           y2="344.35"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#171387" />
-          <stop offset="0.39" stop-color="#31577E" />
-          <stop offset="1" stop-color="#89B0D7" />
+          <stop stopColor="#171387" />
+          <stop offset="0.39" stopColor="#31577E" />
+          <stop offset="1" stopColor="#89B0D7" />
         </linearGradient>
         <linearGradient
           id="paint100_linear_173_1920"
@@ -3200,8 +3200,8 @@ export default function ServicePageHeroImg() {
           y2="336.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop offset="0.39" stop-color="#3130A7" />
-          <stop offset="1" stop-color="#D6D6D6" />
+          <stop offset="0.39" stopColor="#3130A7" />
+          <stop offset="1" stopColor="#D6D6D6" />
         </linearGradient>
         <linearGradient
           id="paint101_linear_173_1920"
@@ -3211,9 +3211,9 @@ export default function ServicePageHeroImg() {
           y2="149.036"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#171387" />
-          <stop offset="0.39" stop-color="#0A69C9" />
-          <stop offset="1" stop-color="#97C2EE" />
+          <stop stopColor="#171387" />
+          <stop offset="0.39" stopColor="#0A69C9" />
+          <stop offset="1" stopColor="#97C2EE" />
         </linearGradient>
         <image
           id="image0_173_1920"
