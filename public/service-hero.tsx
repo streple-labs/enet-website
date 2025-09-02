@@ -1,10 +1,9 @@
 export default function ServicePageHeroImg() {
   return (
     <svg
-      width="494"
-      height="349"
       viewBox="0 0 494 349"
       fill="none"
+      className="w-[315px] h-[222px] lg:w-[494px] lg:h-[349px]"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >

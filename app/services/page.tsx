@@ -120,7 +120,7 @@ export default function page() {
             </defs>
           </svg>
         </span>
-        <span className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+        <span className="hidden lg:block absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
           <svg
             width="1074"
             height="586"
@@ -199,16 +199,15 @@ export default function page() {
           </svg>
         </span>
 
-        <div className="relative flex items-center w-full justify-between px-20 mw">
-          <div className="flex flex-col gap-5">
-            <div className="py-[11px] px-11 w-fit flex items-center gap-[15px] rounded-[20px] backdrop-blur-2xl bg-[#FFFFFF24]">
+        <div className="relative flex flex-col lg:flex-row gap-8 lg:gap-0 items-center w-full justify-between px-20 mw">
+          <div className="flex flex-col gap-3 md:gap-5">
+            <div className="mb-4 md:mb-10 py-1 px-4 md:py-[11px] md:px-11 w-fit flex items-center gap-2.5 md:gap-[15px] rounded-[20px] backdrop-blur-2xl bg-[#FFFFFF24]">
               <span>
                 <svg
-                  width="19"
-                  height="24"
                   viewBox="0 0 19 24"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
+                  className="w-3 h-4 md:w-5 md:h-6"
                 >
                   <path
                     d="M18.0087 4.50398L17.0768 4.45381C14.5496 4.31606 12.3588 3.36421 11.0655 1.84049L9.49998 0L7.93412 1.84049C6.64079 3.36421 4.44959 4.31606 1.92276 4.45381L0 4.55816V13.2738C0 14.5134 0.382633 15.6821 0.991266 16.7509C3.09269 20.4702 7.87468 23.0163 8.55519 23.3668L9.49998 23.8511L10.4444 23.3668C11.3206 22.9159 19 18.8172 19 13.2738V4.55816L18.0087 4.50398ZM2.03334 12.1634C2.03334 10.0053 2.03334 6.44873 2.03334 6.44873C5.0878 6.28201 7.80246 5.11745 9.50002 3.11797V12.1634H16.966V13.2738C16.966 17.7692 9.50002 21.5969 9.50002 21.5969V12.1634H2.03334Z"
@@ -216,18 +215,18 @@ export default function page() {
                   />
                 </svg>
               </span>
-              <p className="font-bold text-base/[23px] text-[#00C853]">
+              <p className="font-bold text-xs/4 md:text-base/[23px] text-[#00C853]">
                 Enet Secured
               </p>
             </div>
 
             <h1
-              className={`${montserrat.className} font-bold text-[66px]/[90px] text-white`}
+              className={`${montserrat.className} font-bold text-2xl/8 sm:text-3xl/9 md:text-5xl/14 lg:text-6xl xl:text-[66px]/[90px]`}
             >
               Empowering Your Digital Transformation
             </h1>
 
-            <p className="font-normal mt-4 text-[18px]/[30px] text-[#EEEDFFCC]">
+            <p className="font-normal mt-4 text-sm/6 md:text-lg/[30px] text-[#EEEDFFCC]">
               Enet Technologies delivers cybersecurity, cloud, and compliance
               solutions to help businesses innovate securely and grow
               confidently.
@@ -237,7 +236,7 @@ export default function page() {
               <button
                 title="book a free consultation"
                 aria-label="book a free consultation"
-                className="rounded-[8px] mt-4 p-6 font-bold text-[18px]/6 text-white bg-[#004C99]"
+                className="rounded-md mt-4 p-5 md:p-6 font-bold text-xs/4 md:text-lg/6 bg-[#004C99] w-[250px] md:w-auto h-[45px] md:h-auto flex justify-center items-center"
               >
                 Book a free Consultation
               </button>
@@ -250,7 +249,7 @@ export default function page() {
         </div>
       </section>
 
-      <section className="relative flex flex-col gap-[30px] items-center justify-center w-full">
+      <section className="relative overflow-hidden flex flex-col gap-[30px] items-center justify-center w-full">
         {services.map((service, i) => (
           <div
             key={i}
@@ -338,12 +337,12 @@ export default function page() {
             {i == 0 && (
               <div className="pt-20 flex flex-col gap-6 max-w-4xl items-center justify-center text-center">
                 <h1
-                  className={`${montserrat.className} font-bold text-[66px]/[90px] text-white`}
+                  className={`${montserrat.className} font-bold text-2xl/8 sm:text-3xl/9 md:text-5xl/14 lg:text-6xl xl:text-[66px]/[90px]`}
                 >
                   Our Services
                 </h1>
 
-                <p className="font-normal mt-4 text-[18px]/[30px] text-[#EEEDFFCC]">
+                <p className="font-normal mt-4 text-sm/5 md:text-lg/[30px] text-[#EEEDFFCC]">
                   At Enet Technologies, we deliver innovative, security-first
                   solutions designed to help your business stay protected,
                   compliant, and ready for the future.
@@ -352,23 +351,24 @@ export default function page() {
             )}
 
             <div
-              className="mw py-[96px] px-20 flex items-center justify-between gap-20"
-              style={{ flexDirection: i % 2 ? "row-reverse" : "row" }}
+              className={`mw px-8 py-8 md:py-[96px] md:px-20 flex items-center justify-between ${
+                i % 2 ? "flex-col lg:flex-row-reverse" : "flex-col lg:flex-row"
+              } gap-20`}
             >
               <div className="flex flex-col gap-5">
                 <div className="space-y-4">
                   <h4
-                    className={`${montserrat.className} font-bold text-[50px]/[63px]`}
+                    className={`${montserrat.className} font-bold text-2xl/8 sm:text-3xl/9 md:text-5xl/14 lg:text-[50px]/[63px]`}
                   >
                     {service.title}
                   </h4>
-                  <p className="text-base/[26px] text-[#EEEDFFCC]">
+                  <p className="text-xs/5 md:text-base/[26px] text-[#EEEDFFCC]">
                     {service.desc}
                   </p>
                 </div>
                 <div className="space-y-[29px]">
                   <h6
-                    className={`${montserrat.className} font-bold text-xl/[26px]`}
+                    className={`${montserrat.className} font-bold text-sm/[26px] md:text-xl/[26px]`}
                   >
                     Key Services;
                   </h6>
@@ -377,21 +377,22 @@ export default function page() {
                       key={item}
                       className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]"
                     >
-                      <span className="size-[13px] bg-[#004C99] rounded-full" />
-                      <p className="text-base/[26px] font-bold">{item}</p>
+                      <span className="size-2 md:size-[13px] bg-[#004C99] rounded-full" />
+                      <p className="text-[10px]/4 md:text-base/[26px] font-bold">
+                        {item}
+                      </p>
                     </div>
                   ))}
                 </div>
                 <Link
                   href={service.url}
-                  className="flex items-center gap-[14px] font-semibold text-[22px] text-[#00C853]"
+                  className="flex items-center gap-[14px] font-semibold text-lg md:text-[22px] text-[#00C853]"
                 >
                   Get started
                   <svg
-                    width="22"
-                    height="18"
                     viewBox="0 0 22 18"
                     fill="none"
+                    className="w-[14px] h-3 md:w-[22px] md:h-[18px]"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -412,7 +413,7 @@ export default function page() {
                 aria-label="why client trust us"
                 width={649}
                 height={616}
-                className="size-auto rounded-[20px]"
+                className="size-auto lg:w-[649px] lg:h-[616px] rounded-[20px]"
               />
             </div>
           </div>

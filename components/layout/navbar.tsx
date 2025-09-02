@@ -30,7 +30,7 @@ export default function Navbar() {
           />
         </Link>
 
-        <div className="hidden lg:flex flex-row items-center gap-12 font-normal text-[18px] leading-[100%] tracking-[0%] capitalize text-white">
+        <div className="hidden lg:flex flex-row items-center gap-12 font-normal text-[18px] capitalize">
           {navItems.map((item) => (
             <Link
               key={item.href}
@@ -48,7 +48,7 @@ export default function Navbar() {
 
         <Link
           href={"#"}
-          className="hidden lg:block py-[12px] px-[26px] border border-white rounded-[8px] font-bold text-[18px] leading-[100%] tracking-[0%] text-white"
+          className="hidden lg:block py-[12px] px-[26px] border border-white rounded-[8px] font-bold text-[18px]"
         >
           Book a Call
         </Link>
