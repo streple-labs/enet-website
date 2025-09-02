@@ -160,7 +160,7 @@ export default function page() {
           </svg>
         </span>
 
-        <div className="relative flex flex-col lg:flex-row gap-8 lg:gap-0 items-center w-full justify-between px-20 mw">
+        <div className="relative flex flex-col lg:flex-row gap-8 lg:gap-0 items-center w-full justify-between px-8 md:px-20 mw">
           <div className="flex flex-col gap-3 md:gap-5">
             <div className="mb-4 md:mb-10 py-1 px-4 md:py-[11px] md:px-11 w-fit flex items-center gap-2.5 md:gap-[15px] rounded-[20px] backdrop-blur-2xl bg-[#FFFFFF24]">
               <span>
@@ -210,11 +210,11 @@ export default function page() {
         </div>
       </section>
 
-      <section className="relative overflow-hidden flex flex-col gap-[30px] items-center justify-center w-full">
+      <section className="relative overflow-hidden flex flex-col gap-5 md:gap-[30px] items-center justify-center w-full">
         {services.map((service, i) => (
           <div
             key={i}
-            className="relative flex flex-col items-center justify-center w-full"
+            className="relative flex flex-col items-center justify-center w-full mw px-8 md:px-20"
           >
             <span className="absolute left-0 bottom-0">
               <svg
@@ -296,7 +296,7 @@ export default function page() {
             </span>
 
             {i == 0 && (
-              <div className="pt-20 flex flex-col gap-6 max-w-4xl items-center justify-center text-center">
+              <div className="py-10 md:pt-20 flex flex-col gap-3 md:gap-6 max-w-4xl items-center justify-center text-center">
                 <h1
                   className={`${montserrat.className} font-bold text-2xl/8 sm:text-3xl/9 md:text-5xl/14 lg:text-6xl xl:text-[66px]/[90px]`}
                 >
@@ -312,9 +312,9 @@ export default function page() {
             )}
 
             <div
-              className={`mw px-8 py-8 md:py-[96px] md:px-20 flex items-center justify-between ${
+              className={`relative py-8 md:py-[96px] flex items-center justify-between ${
                 i % 2 ? "flex-col lg:flex-row-reverse" : "flex-col lg:flex-row"
-              } gap-20`}
+              } gap-10 md:gap-20`}
             >
               <div className="flex flex-col gap-5">
                 <div className="space-y-4">
@@ -374,7 +374,7 @@ export default function page() {
                 aria-label="why client trust us"
                 width={649}
                 height={616}
-                className="size-auto lg:w-[649px] lg:h-[616px] rounded-[20px]"
+                className="size-auto lg:w-[649px] lg:h-[616px] rounded-[20px] relative"
               />
             </div>
           </div>
