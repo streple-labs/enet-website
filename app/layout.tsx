@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { openSans } from "@/app/fonts";
 import "./globals.css";
-import Footer from "@/components/layout/footer";
 import Navbar from "@/components/layout/navbar";
+import Footer from "@/components/layout/footer";
 
 export const metadata: Metadata = {
   title: "ENET - Innovate Securely, Scale Fearlessly.",
