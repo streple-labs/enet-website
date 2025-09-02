@@ -8,9 +8,9 @@ const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
-  { href: "/solution", label: "Solution" },
-  { href: "/blog", label: "Blog" },
-  { href: "/contact", label: "Contact Us" },
+  // { href: "/solution", label: "Solution" },
+  // { href: "/blog", label: "Blog" },
+  // { href: "/contact", label: "Contact Us" },
 ];
 
 export default function Navbar() {
@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <header className="flex justify-center relative">
-      <nav className="flex mw items-center bg-[#0000001A] backdrop-blur-[50px] py-[20px] px-[80px] w-full justify-between">
+      <nav className="flex mw items-center bg-[#0000001A] backdrop-blur-[50px] py-3 md:py-5 px-[30px] lg:px-20 w-full justify-between">
         <Link href={"/"}>
           <Image
             loading="lazy"
@@ -26,10 +26,11 @@ export default function Navbar() {
             alt="navbar logo"
             width={160}
             height={51}
+            className="w-[75px] h-6 lg:w-[160px] lg:h-[51px] flex-shrink-0"
           />
         </Link>
 
-        <div className="flex flex-row items-center gap-12 font-normal text-[18px] leading-[100%] tracking-[0%] capitalize text-white">
+        <div className="hidden lg:flex flex-row items-center gap-12 font-normal text-[18px] leading-[100%] tracking-[0%] capitalize text-white">
           {navItems.map((item) => (
             <Link
               key={item.href}
@@ -47,10 +48,39 @@ export default function Navbar() {
 
         <Link
           href={"#"}
-          className="py-[12px] px-[26px] border border-white rounded-[8px] font-bold text-[18px] leading-[100%] tracking-[0%] text-white"
+          className="hidden lg:block py-[12px] px-[26px] border border-white rounded-[8px] font-bold text-[18px] leading-[100%] tracking-[0%] text-white"
         >
           Book a Call
         </Link>
+
+        <div className="lg:hidden">
+          <svg
+            width="18"
+            height="11"
+            viewBox="0 0 18 11"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.8984 0.930892L1.89844 0.9375"
+              stroke="white"
+              strokeWidth="1.875"
+              strokeLinecap="round"
+            />
+            <path
+              d="M16.9004 5.43089L1.90039 5.4375"
+              stroke="white"
+              strokeWidth="1.875"
+              strokeLinecap="round"
+            />
+            <path
+              d="M16.9023 9.93089L1.90234 9.9375"
+              stroke="white"
+              strokeWidth="1.875"
+              strokeLinecap="round"
+            />
+          </svg>
+        </div>
       </nav>
     </header>
   );

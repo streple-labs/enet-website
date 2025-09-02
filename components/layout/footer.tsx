@@ -5,24 +5,25 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden py-[116px] px-[80px] w-full flex justify-between mw">
+    <footer className="relative overflow-hidden py-12 lg:py-[116px] px-8 md:px-20 w-full flex flex-col lg:flex-row justify-between gap-8 mw">
       <p
-        className={`${montserrat.className} opacity-[7%] font-extrabold text-[120px] tracking-[4%] absolute -bottom-12 whitespace-nowrap left-[7.5%]`}
+        className={`${montserrat.className} opacity-[7%] font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[120px] tracking-[4%] absolute left-1/2 -translate-x-1/2 -bottom-0 sm:-bottom-1 md:-bottom-2 lg:-bottom-3 xl:-bottom-4 whitespace-nowrap`}
       >
         Enet Technologies
       </p>
 
-      <div className="space-y-16">
-        <div className="space-y-8 max-w-[440px]">
+      <div className="space-y-4 md:space-y-8 lg:space-y-16">
+        <div className="space-y-4 lg:space-y-8 max-w-[440px]">
           <Image
             src={"/enet-logo-footer.png"}
             aria-label="enet logo"
             alt="enet logo"
             width={300}
             height={95}
+            className="w-[115px] h-[36px] lg:w-[300px] lg:h-[95px]"
           />
 
-          <p className="text-lg/[27px]">
+          <p className="textsm/[22px] md:text-lg/[27px]">
             Protecting your business today while powering your growth for
             tomorrow.
           </p>
@@ -166,8 +167,8 @@ export default function Footer() {
         </p>
       </div>
 
-      <div className="flex flex-wrap gap-[26px]">
-        <div className="space-y-4 w-40">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap gap-[26px]">
+        <div className="space-y-4">
           <p className={`text-lg font-semibold ${montserrat.className}`}>
             Quick Links
           </p>
@@ -192,7 +193,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="space-y-4 w-40">
+        <div className="space-y-4">
           <p className={`text-lg font-semibold ${montserrat.className}`}>
             Solutions
           </p>
@@ -214,7 +215,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="space-y-4 w-40">
+        <div className="space-y-4">
           <p className={`text-lg font-semibold ${montserrat.className}`}>
             Resources
           </p>
@@ -233,7 +234,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="space-y-4 w-40">
+        <div className="space-y-4">
           <p className={`text-lg font-semibold ${montserrat.className}`}>
             Company
           </p>

@@ -7,7 +7,7 @@ import { montserrat } from "../fonts";
 export default function page() {
   return (
     <main className="flex flex-col">
-      <section className="relative flex items-center justify-center w-full">
+      <section className="relative flex items-center justify-center w-full overflow-hidden">
         <span className="top-0 right-0 absolute -z-10">
           <svg
             width="548"
@@ -126,14 +126,14 @@ export default function page() {
           </svg>
         </span>
 
-        <div className="px-20 pb-20 relative mw flex flex-col gap-8 w-full">
+        <div className="px-8 lg:px-20 pb-8 lg:pb-20 relative mw flex flex-col gap-4 md:gap-8 w-full">
           <h1
-            className={`${montserrat.className} font-bold text-[75px]/[85px]`}
+            className={`${montserrat.className} font-bold text-4xl/[50px] sm:text-5xl md:text-6xl xl:text-[75px]/[85px]`}
           >
             Our Story
           </h1>
 
-          <div className="flex gap-10">
+          <div className="flex flex-col lg:flex-row gap-10">
             <Image
               loading="lazy"
               src="/about-us-hero.png"
@@ -145,13 +145,13 @@ export default function page() {
             />
 
             <div className="w-full space-y-4">
-              <p className="text-base/[25px] font-bold">
+              <p className="text-xs/[18px] md:text-base/[25px] font-bold">
                 With years of expertise, Enet Technologies delivers cutting-edge
                 cybersecurity, scalable cloud solutions, and compliant fintech
                 infrastructures tailored to empower your business in a
                 digital-first world.
               </p>
-              <div className="flex gap-8 justify-between">
+              <div className="flex flex-col lg:flex-row gap-8 justify-between">
                 <Image
                   loading="lazy"
                   src="/about-us-hero-1.png"
@@ -171,23 +171,22 @@ export default function page() {
                   className="size-auto rounded-[14px] flex-shrink-0"
                 />
               </div>
-              <p className="text-base/[25px]">
+              <p className="text-xs/[18px] md:text-base/[25px]">
                 Our commitment to innovation and security drives everything we
                 do. From protecting critical systems to enabling growth, Enet
                 Technologies provides reliable, scalable, and future-ready
                 solutions.
               </p>
               <Link href={"#"} className="flex gap-2.5 items-center">
-                <p className="text-[#004C99] text-[22px]/[25px] font-semibold">
+                <p className="text-[#004C99] text-base md:text-[22px]/[25px] font-semibold">
                   View All Services
                 </p>
                 <span>
                   <svg
-                    width="19"
-                    height="15"
                     viewBox="0 0 19 15"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    className="w-3 h-2.5 md:w-5 md:h-4"
                   >
                     <path
                       d="M2 7.5H17M17 7.5L10.75 1.25M17 7.5L10.75 13.75"
@@ -203,23 +202,24 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="relative flex items-center justify-center w-full">
-        <div className="mw px-[43px] py-[58px] flex items-center justify-center w-full">
+
+      <section className="relative flex items-center justify-center w-full overflow-hidden">
+        <div className="mw md:px-8 px-10 py-8 md:py-[58px] flex items-center justify-center w-full">
           <div
-            className="border border-[#B9B8B84D] w-full rounded-[20px] backdrop-blur-[50px] px-[38px] py-[82px] relative overflow-hidden"
+            className="border border-[#B9B8B84D] w-full rounded-[20px] backdrop-blur-[50px] px-5 md:px-[38px] py-9 md:py-[82px] relative overflow-hidden"
             style={{
               background:
                 "linear-gradient(96.79deg, rgba(0, 76, 153, 0.6) -62.94%, rgba(0, 76, 153, 0.45) -62.92%, rgba(90, 90, 90, 0) 54.42%, rgba(0, 76, 153, 0.6) 174.24%)",
             }}
           >
-            <div className="relative z-10 flex items-center gap-[50px] justify-between w-full">
+            <div className="relative z-10 flex flex-col lg:flex-row items-center gap-8 md:gap-[50px] justify-between w-full">
               <div className="flex items-center flex-col justify-center gap-4">
                 <h4
-                  className={`${montserrat.className} font-bold text-[50px]/[63px]`}
+                  className={`${montserrat.className} font-bold text-2xl/10 md:text-4xl/12 lg:text-[50px]/[63px]`}
                 >
                   Our Mission
                 </h4>
-                <p className="text-base/[26px] text-center">
+                <p className="text-xs/[18px] md:text-base/[26px] text-[#EEEDFFCC] text-center">
                   To empower businesses with secure, scalable, and compliant
                   technology solutions, driving innovation while safeguarding
                   digital assets in an evolving cyber landscape.
@@ -256,11 +256,11 @@ export default function page() {
 
               <div className="flex items-center flex-col justify-center gap-4">
                 <h4
-                  className={`${montserrat.className} font-bold text-[50px]/[63px]`}
+                  className={`${montserrat.className} font-bold text-2xl/10 md:text-4xl/12 lg:text-[50px]/[63px]`}
                 >
                   Our Vision
                 </h4>
-                <p className="text-base/[26px] text-center">
+                <p className="text-xs/[18px] md:text-base/[26px] text-[#EEEDFFCC] text-center">
                   To be Africa&apos;s leading force in cybersecurity, fintech
                   infrastructure, and digital transformation enabling a future
                   where businesses innovate securely and thrive globally.
@@ -313,7 +313,8 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="relative flex items-center justify-center w-full">
+
+      <section className="relative flex items-center justify-center w-full overflow-hidden">
         <span className="absolute left-0 bottom-0">
           <svg
             width="658"
@@ -393,43 +394,43 @@ export default function page() {
           </svg>
         </span>
 
-        <div className="mw py-[96px] px-[80px] flex items-center justify-between gap-20">
-          <div className="flex flex-col gap-[34px]">
+        <div className="mw py-10 md:py-[96px] px-8 md:px-20 flex flex-col lg:flex-row items-center justify-between gap-8 md:gap-20">
+          <div className="flex flex-col gap-6 md:gap-[34px]">
             <div className="space-y-4">
               <h4
-                className={`${montserrat.className} font-bold text-[50px]/[63px]`}
+                className={`${montserrat.className} font-bold text-2xl/8 sm:text-3xl/10 md:text-4xl/12 lg:text-5xl/14 xl:text-[50px]/[63px]`}
               >
                 Why clients trust us
               </h4>
-              <p className="text-base/[26px] text-[#EEEDFFCC]">
+              <p className="text-xs/5 md:text-base/[26px] text-[#EEEDFFCC]">
                 At Enet Technologies, we empower businesses with secure,
                 scalable, and future-ready solutions, helping them innovate
                 confidently, stay compliant, and thrive in a rapidly evolving
                 digital world.
               </p>
             </div>
-            <div className="space-y-[29px]">
-              <div className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]">
-                <span className="size-[13px] bg-[#004C99] rounded-full" />
-                <p className="text-base/[26px] font-bold">
+            <div className="space-y-5 md:space-y-[29px]">
+              <div className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[13px] md:px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]">
+                <span className="size-2 md:size-[13px] bg-[#004C99] rounded-full" />
+                <p className="text-[10px]/4 md:text-base/[26px] font-bold">
                   Proven Industry Expertise
                 </p>
               </div>
-              <div className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]">
-                <span className="size-[13px] bg-[#004C99] rounded-full" />
-                <p className="text-base/[26px] font-bold">
+              <div className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[13px] md:px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]">
+                <span className="size-2 md:size-[13px] bg-[#004C99] rounded-full" />
+                <p className="text-[10px]/4 md:text-base/[26px] font-bold">
                   Innovative, Future-Ready Technology
                 </p>
               </div>
-              <div className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]">
-                <span className="size-[13px] bg-[#004C99] rounded-full" />
-                <p className="text-base/[26px] font-bold">
+              <div className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[13px] md:px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]">
+                <span className="size-2 md:size-[13px] bg-[#004C99] rounded-full" />
+                <p className="text-[10px]/4 md:text-base/[26px] font-bold">
                   Comprehensive End-to-End Security
                 </p>
               </div>
-              <div className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]">
-                <span className="size-[13px] bg-[#004C99] rounded-full" />
-                <p className="text-base/[26px] font-bold">
+              <div className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[13px] md:px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]">
+                <span className="size-2 md:size-[13px] bg-[#004C99] rounded-full" />
+                <p className="text-[10px]/4 md:text-base/[26px] font-bold">
                   Global Standards & Compliance
                 </p>
               </div>
@@ -447,16 +448,17 @@ export default function page() {
           />
         </div>
       </section>
-      <section className="relative flex items-center justify-center w-full bg-[url('/join-our-team-bg.jpg')] bg-center bg-no-repeat bg-cover h-[620px]">
+
+      <section className="relative flex items-center justify-center w-full bg-[url('/join-our-team-bg.jpg')] bg-center bg-no-repeat bg-cover py-24 px-8 md:px-20">
         <div className="absolute bg-black/50 inset-0 z-0" />
 
-        <div className="relative flex flex-col items-center justify-center gap-10 max-w-4xl">
+        <div className="relative flex flex-col items-center justify-center gap-4 md:gap-10 max-w-4xl">
           <h4
-            className={`${montserrat.className} font-bold text-[50px]/[63px]`}
+            className={`${montserrat.className} font-bold text-2xl/8 sm:text-3xl/10 md:text-4xl/12 lg:text-5xl/14 xl:text-[50px]/[63px]`}
           >
             Why clients trust us
           </h4>
-          <p className="text-center text-[#EEEDFFCC]">
+          <p className="text-center text-[#EEEDFFCC] text-xs/4 md:text-base/6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud Lorem ipsum dolor sit amet,
@@ -467,13 +469,14 @@ export default function page() {
             <button
               title="join our team"
               aria-label="join our team"
-              className="flex flex-col mx-auto px-28 py-4 bg-[#004C99] rounded-[8px] w-max font-bold text-[18px] leading-[24px] tracking-[0%] items-center text-white"
+              className="sm:w-[258px] md:w-[309px] md:p-5 py-4 px-10 bg-[#004C99] rounded-md md:rounded-lg font-bold text-base/6 md:text-lg/6"
             >
               View More
             </button>
           </Link>
         </div>
       </section>
+
       <CtaCard />
     </main>
   );
