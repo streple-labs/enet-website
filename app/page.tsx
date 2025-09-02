@@ -1,5 +1,4 @@
 import { montserrat } from "@/app/fonts";
-import Navbar from "@/components/layout/navbar";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -158,11 +157,14 @@ export default function page() {
           ))}
         </div>
 
-        <Link
-          href={"#"}
-          className="flex flex-col mx-auto mt-12 px-28 py-4 bg-[#004C99] rounded-[8px] w-max font-bold text-[18px] leading-[24px] tracking-[0%] items-center text-white"
-        >
-          View More
+        <Link href={"#"}>
+          <button
+            title="our services"
+            aria-label="our services"
+            className="flex flex-col mx-auto mt-12 px-28 py-4 bg-[#004C99] rounded-[8px] w-max font-bold text-[18px] leading-[24px] tracking-[0%] items-center text-white"
+          >
+            View More
+          </button>
         </Link>
       </section>
 

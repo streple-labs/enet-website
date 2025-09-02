@@ -176,26 +176,27 @@ export default function page() {
                 Technologies provides reliable, scalable, and future-ready
                 solutions.
               </p>
-              <Link
-                href={"#"}
-                className="flex gap-2.5 items-center text-[#004C99] text-[22px]/[25px] font-semibold"
-              >
-                View All Services
-                <svg
-                  width="19"
-                  height="15"
-                  viewBox="0 0 19 15"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M2 7.5H17M17 7.5L10.75 1.25M17 7.5L10.75 13.75"
-                    stroke="#004C99"
-                    strokeWidth="2.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
+              <Link href={"#"} className="flex gap-2.5 items-center">
+                <p className="text-[#004C99] text-[22px]/[25px] font-semibold">
+                  View All Services
+                </p>
+                <span>
+                  <svg
+                    width="19"
+                    height="15"
+                    viewBox="0 0 19 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M2 7.5H17M17 7.5L10.75 1.25M17 7.5L10.75 13.75"
+                      stroke="#004C99"
+                      strokeWidth="2.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </span>
               </Link>
             </div>
           </div>
@@ -308,6 +309,224 @@ export default function page() {
             <span className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-1/2">
               <OnesAndZeros />
             </span>
+          </div>
+        </div>
+      </section>
+      <section className="relative flex items-center justify-center w-full">
+        <span className="absolute left-0 bottom-0">
+          <svg
+            width="658"
+            height="602"
+            viewBox="0 0 658 602"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_f_146_3165)">
+              <path
+                d="M266.259 528.846C358.148 476.404 288.11 299.287 144.536 365.572L95.2405 386.974L-64.7004 475.184C-68.6811 500.299 -55.1763 597.455 43.298 613.101C62.5365 616.158 255.445 535.018 266.259 528.846Z"
+                fill="#004C99"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_146_3165"
+                x="-415.304"
+                y="0.921509"
+                width="1072.97"
+                height="962.264"
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="175"
+                  result="effect1_foregroundBlur_146_3165"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </span>
+        <span className="absolute right-0 bottom-0">
+          <svg
+            width="624"
+            height="731"
+            viewBox="0 0 624 731"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g filter="url(#filter0_f_146_3163)">
+              <path
+                d="M682.259 528.846C774.148 476.404 704.11 299.287 560.536 365.572L511.24 386.974L351.3 475.184C347.319 500.299 360.824 597.455 459.298 613.101C478.537 616.158 671.445 535.018 682.259 528.846Z"
+                fill="#004C99"
+              />
+            </g>
+            <defs>
+              <filter
+                id="filter0_f_146_3163"
+                x="0.696289"
+                y="0.921509"
+                width="1072.97"
+                height="962.264"
+                filterUnits="userSpaceOnUse"
+                colorInterpolationFilters="sRGB"
+              >
+                <feFlood floodOpacity="0" result="BackgroundImageFix" />
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                />
+                <feGaussianBlur
+                  stdDeviation="175"
+                  result="effect1_foregroundBlur_146_3163"
+                />
+              </filter>
+            </defs>
+          </svg>
+        </span>
+
+        <div className="mw py-[96px] px-[80px] flex items-center justify-between gap-20">
+          <div className="flex flex-col gap-[34px]">
+            <div className="space-y-4">
+              <h4
+                className={`${montserrat.className} font-bold text-[50px]/[63px]`}
+              >
+                Why clients trust us
+              </h4>
+              <p className="text-base/[26px] text-[#EEEDFFCC]">
+                At Enet Technologies, we empower businesses with secure,
+                scalable, and future-ready solutions, helping them innovate
+                confidently, stay compliant, and thrive in a rapidly evolving
+                digital world.
+              </p>
+            </div>
+            <div className="space-y-10">
+              <div className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]">
+                <span className="size-[13px] bg-[#004C99] rounded-full" />
+                <p className="text-base/[26px] font-bold">
+                  Proven Industry Expertise
+                </p>
+              </div>
+              <div className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]">
+                <span className="size-[13px] bg-[#004C99] rounded-full" />
+                <p className="text-base/[26px] font-bold">
+                  Innovative, Future-Ready Technology
+                </p>
+              </div>
+              <div className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]">
+                <span className="size-[13px] bg-[#004C99] rounded-full" />
+                <p className="text-base/[26px] font-bold">
+                  Comprehensive End-to-End Security
+                </p>
+              </div>
+              <div className="bg-[#30393E73] border-[0.7px] border-[#EEEDFFCC] py-2 px-[22px] flex items-center gap-2.5 rounded-[20px] backdrop-blur-[50px]">
+                <span className="size-[13px] bg-[#004C99] rounded-full" />
+                <p className="text-base/[26px] font-bold">
+                  Global Standards & Compliance
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <Image
+            loading="lazy"
+            src={"/why-client-trust-us.png"}
+            alt="why client trust us"
+            aria-label="why client trust us"
+            width={649}
+            height={616}
+            className="size-auto rounded-[20px]"
+          />
+        </div>
+      </section>
+      <section className="relative flex items-center justify-center w-full bg-[url('/join-our-team-bg.jpg')] bg-center bg-no-repeat bg-cover h-[620px]">
+        <div className="absolute bg-black/50 inset-0 z-0" />
+
+        <div className="relative flex flex-col items-center justify-center gap-10 max-w-4xl">
+          <h4
+            className={`${montserrat.className} font-bold text-[50px]/[63px]`}
+          >
+            Why clients trust us
+          </h4>
+          <p className="text-center text-[#EEEDFFCC]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+          </p>
+          <Link href={"#"}>
+            <button
+              title="join our team"
+              aria-label="join our team"
+              className="flex flex-col mx-auto px-28 py-4 bg-[#004C99] rounded-[8px] w-max font-bold text-[18px] leading-[24px] tracking-[0%] items-center text-white"
+            >
+              View More
+            </button>
+          </Link>
+        </div>
+      </section>
+      <section className="relative flex items-center justify-center w-full">
+        <div className="mw px-20 py-24 flex items-center justify-center w-full">
+          <div className="flex flex-col items-center w-full rounded-[19px] bg-[url('/cta-background.png')] bg-no-repeat bg-center p-[61px]">
+            <div className="mb-10 py-[11px] px-11 w-auto flex items-center gap-[15px] rounded-[20px] backdrop-blur-2xl bg-[#FFFFFF24]">
+              <span>
+                <svg
+                  width="19"
+                  height="24"
+                  viewBox="0 0 19 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.0087 4.50398L17.0768 4.45381C14.5496 4.31606 12.3588 3.36421 11.0655 1.84049L9.49998 0L7.93412 1.84049C6.64079 3.36421 4.44959 4.31606 1.92276 4.45381L0 4.55816V13.2738C0 14.5134 0.382633 15.6821 0.991266 16.7509C3.09269 20.4702 7.87468 23.0163 8.55519 23.3668L9.49998 23.8511L10.4444 23.3668C11.3206 22.9159 19 18.8172 19 13.2738V4.55816L18.0087 4.50398ZM2.03334 12.1634C2.03334 10.0053 2.03334 6.44873 2.03334 6.44873C5.0878 6.28201 7.80246 5.11745 9.50002 3.11797V12.1634H16.966V13.2738C16.966 17.7692 9.50002 21.5969 9.50002 21.5969V12.1634H2.03334Z"
+                    fill="#00C853"
+                  />
+                </svg>
+              </span>
+              <p className="font-bold text-base/[23px] text-[#00C853]">
+                Enet Secured
+              </p>
+            </div>
+            <div className="flex flex-col items-center gap-[18px] max-w-4xl text-center mb-12">
+              <h4
+                className={`${montserrat.className} font-bold text-[67px]/[70px]`}
+              >
+                Ready to Secure, Scale, and Succeed?
+              </h4>
+              <p className="text-[#EEEDFFCC] text-base/[26px]">
+                Partner with Enet Technologies to protect your business,
+                optimize your infrastructure, and stay compliant. all with one
+                trusted partner.
+              </p>
+            </div>
+            <div className="flex items-center justify-center gap-[30px]">
+              <Link href={"#"}>
+                <button
+                  title="get started"
+                  aria-label="get started"
+                  className="flex flex-col w-[230px] py-4 bg-[#004C99] rounded-[8px] font-bold text-lg/[21px] tracking-[0%] items-center text-white"
+                >
+                  Get Started
+                </button>
+              </Link>
+              <Link href={"#"}>
+                <button
+                  title="book audit"
+                  aria-label="book audit"
+                  className="flex flex-col w-[230px] py-4 border border-[#F5F5F5] rounded-[8px] font-bold text-lg/[21px] tracking-[0%] items-center text-[#F5F5F5]"
+                >
+                  Book Audit
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>
