@@ -17,7 +17,7 @@ export default function Navbar() {
     ];
 
     return (
-        <header className="flex flex-col relative">
+        <header className="fixed top-0 left-0 w-full z-50">
             <nav className="flex flex-row items-center bg-[#0000001A] backdrop-blur-[50px] py-[20px] px-[80px] w-full justify-between">
                 <Link href={"/"}>
                     <Image
@@ -34,7 +34,7 @@ export default function Navbar() {
                         <Link
                             key={item.label}
                             href={item.href}
-                            className={`${pathname === item.href
+                            className={`${pathname.startsWith(item.href)
                                 ? "font-bold uppercase"
                                 : "font-normal capitalize"
                                 }`}
