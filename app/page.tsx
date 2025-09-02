@@ -312,7 +312,7 @@ export default function page() {
         </Link>
       </section>
 
-      <section className="bg-[#030E14] flex flex-row px-32 py-28 w-full justify-between">
+      {/* <section className="bg-[#030E14] flex flex-row px-32 py-28 w-full justify-between">
         <div className="flex flex-col">
           <Image
             loading="lazy"
@@ -402,7 +402,7 @@ export default function page() {
             View More
           </Link>
         </div>
-      </section>
+      </section> */}
 
       <section className="testimonials-bg px-18 py-20">
         <div className="flex flex-col gap-2 items-center">
