@@ -316,7 +316,7 @@ export default function page() {
                 i % 2 ? "flex-col lg:flex-row-reverse" : "flex-col lg:flex-row"
               } gap-10 md:gap-20`}
             >
-              <div className="flex flex-col gap-5">
+              <div className="lg:w-1/2 flex flex-col gap-5">
                 <div className="space-y-4">
                   <h4
                     className={`${montserrat.className} font-bold text-2xl/8 sm:text-3xl/9 md:text-5xl/14 lg:text-[50px]/[63px]`}
@@ -374,7 +374,7 @@ export default function page() {
                 aria-label="why client trust us"
                 width={649}
                 height={616}
-                className="size-auto lg:w-[649px] lg:h-[616px] rounded-[20px] relative"
+                className="rounded-[20px] relative"
               />
             </div>
           </div>
