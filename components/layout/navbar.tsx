@@ -17,8 +17,8 @@ export default function Navbar() {
   const pathname = usePathname();
 
   return (
-    <header className="flex flex-col relative">
-      <nav className="flex flex-row items-center bg-[#0000001A] backdrop-blur-[50px] py-[20px] px-[80px] w-full justify-between">
+    <header className="flex justify-center relative">
+      <nav className="flex mw items-center bg-[#0000001A] backdrop-blur-[50px] py-[20px] px-[80px] w-full justify-between">
         <Link href={"/"}>
           <Image
             loading="lazy"

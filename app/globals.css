@@ -5,6 +5,19 @@ body {
   color: #ffffff;
 }
 
+* {
+  @apply duration-300 transition-all ease-in-out;
+}
+
+button {
+  cursor: pointer;
+
+  :disabled {
+    cursor: not-allowed;
+    opacity: 80%;
+  }
+}
+
 .homepage-hero-bg {
   background-image: url("../public/homepage-hero-bg.png");
   background-size: cover;
