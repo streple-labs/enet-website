@@ -27,7 +27,11 @@ export default function Navbar() {
 
   return (
     <header className="flex flex-col justify-center relative">
-      <nav className="hidden lg:flex mw items-center bg-[#0000001A] backdrop-blur-[50px] py-3 md:py-5 px-[30px] lg:px-20 w-full justify-between">
+      <motion.nav
+        initial={{ y: "-100vh" }}
+        animate={{ y: 0 }}
+        className="hidden lg:flex mw items-center bg-[#0000001A] backdrop-blur-[50px] py-3 md:py-5 px-[30px] lg:px-20 w-full justify-between"
+      >
         <Link href={"/"}>
           <Image
             loading="lazy"
@@ -64,8 +68,12 @@ export default function Navbar() {
             Book a Call
           </button>
         </Link>
-      </nav>
-      <nav className="flex lg:hidden mw items-center bg-[#0000001A] backdrop-blur-[50px] py-3 md:py-5 px-[30px] lg:px-20 w-full justify-between">
+      </motion.nav>
+      <motion.nav
+        initial={{ y: "-100vh" }}
+        animate={{ y: 0 }}
+        className="flex lg:hidden mw items-center bg-[#0000001A] backdrop-blur-[50px] py-3 md:py-5 px-[30px] lg:px-20 w-full justify-between"
+      >
         <Link href={"/"}>
           <Image
             loading="lazy"
@@ -128,15 +136,14 @@ export default function Navbar() {
             />
           </svg>
         </button>
-      </nav>
+      </motion.nav>
 
       <AnimatePresence>
         {isMenuOpen && (
           <motion.div
             initial={{ x: "-100%", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
-            exit={{ x: "-100%", opacity: 0 }}
-            transition={{ duration: 0.3, ease: "easeInOut" }}
+            // exit={{ x: "-100%", opacity: 0 }}
             className="fixed inset-0 z-50 flex flex-col bg-[#030e14] px-4 pt-6"
           >
             <div className="flex justify-end">
