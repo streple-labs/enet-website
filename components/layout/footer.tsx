@@ -31,11 +31,10 @@ export default function Footer() {
           <div className="flex items-center gap-6">
             <Link href={"#"}>
               <svg
-                width="31"
-                height="30"
                 viewBox="0 0 31 30"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="size-[18px] md:size-[30px]"
               >
                 <rect
                   x="0.869004"
@@ -69,11 +68,10 @@ export default function Footer() {
             </Link>
             <Link href={"#"}>
               <svg
-                width="31"
-                height="30"
                 viewBox="0 0 31 30"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="size-[18px] md:size-[30px]"
               >
                 <rect
                   x="1.00572"
@@ -103,37 +101,32 @@ export default function Footer() {
             </Link>
             <Link href={"#"}>
               <svg
-                width="31"
-                height="30"
                 viewBox="0 0 31 30"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="size-[18px] md:size-[30px]"
               >
                 <rect
                   x="1.14195"
                   y="0.60875"
-                  width="28.7823"
-                  height="28.7823"
+                  width="28.7801"
+                  height="28.7801"
                   rx="5.53506"
                   stroke="white"
                   strokeWidth="0.738007"
                 />
                 <path
-                  d="M23.6517 8.36582C23.6517 8.36582 22.1624 9.24552 21.3343 9.49497C20.8899 8.98391 20.2992 8.62168 19.6421 8.45728C18.9851 8.29288 18.2934 8.33423 17.6606 8.57575C17.0278 8.81727 16.4845 9.2473 16.1041 9.80768C15.7237 10.3681 15.5245 11.0318 15.5336 11.709V12.447C14.2367 12.4806 12.9515 12.193 11.7927 11.6097C10.6338 11.0264 9.63716 10.1656 8.89154 9.10383C8.89154 9.10383 5.93951 15.7459 12.5816 18.6979C11.0617 19.7296 9.25107 20.2469 7.41553 20.1739C14.0576 23.864 22.1757 20.1739 22.1757 11.6869C22.1757 11.4817 22.155 11.2765 22.1166 11.0743C22.8694 10.3319 23.6517 8.36582 23.6517 8.36582Z"
-                  stroke="white"
-                  strokeWidth="1.10701"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
+                  d="M8.77393 8.26904L13.9672 15.8401L8.88392 21.7286H10.0102L14.4646 16.5651L18.0066 21.7286H22.2619L16.8361 13.8193L21.6241 8.26904H20.5013L16.338 13.0923L13.0292 8.26904H8.77393ZM10.1188 8.97744H12.6563L20.917 21.0202H18.3795L10.1188 8.97744Z"
+                  fill="white"
                 />
               </svg>
             </Link>
             <Link href={"#"}>
               <svg
-                width="31"
-                height="30"
                 viewBox="0 0 31 30"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
+                className="size-[18px] md:size-[30px]"
               >
                 <rect
                   x="1.27867"
@@ -167,7 +160,7 @@ export default function Footer() {
         </p>
       </div>
 
-      <div className="flex flex-col sm:flex-row sm:flex-wrap gap-[26px]">
+      <div className="flex flex-col sm:flex-row sm:flex-wrap gap-6 md:gap-8">
         <div className="space-y-4">
           <p className={`text-lg font-semibold ${montserrat.className}`}>
             Quick Links
