@@ -1,4 +1,12 @@
-import { Open_Sans, Anton, Roboto, Montserrat, Lato, Titillium_Web } from "next/font/google";
+import {
+  Anton,
+  Geist_Mono,
+  Lato,
+  Montserrat,
+  Open_Sans,
+  Roboto,
+  Titillium_Web,
+} from "next/font/google";
 
 export const openSans = Open_Sans({
   subsets: ["latin"],
@@ -28,4 +36,9 @@ export const lato = Lato({
 export const titillium_web = Titillium_Web({
   subsets: ["latin"],
   weight: ["200", "300", "400", "600", "700", "900"],
+});
+
+export const geist_mono = Geist_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });

@@ -14,7 +14,7 @@ export default function Herosection() {
         className="flex flex-col gap-5 md:gap-7 lg:gap-[30px] w-fit"
       >
         <h1
-          className={`${montserrat.className} font-bold text-2xl/[34px] sm:text-4xl md:text-6xl lg:text-[70px]/[90px] max-w-[690px]  `}
+          className={`${montserrat.className} font-bold text-2xl/[34px] sm:text-4xl md:text-6xl[70px] max-w-3xl`}
         >
           Innovate Securely. Scale Fearlessly.
         </h1>

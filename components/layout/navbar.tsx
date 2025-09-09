@@ -30,7 +30,7 @@ export default function Navbar() {
       <motion.nav
         initial={{ y: "-100vh" }}
         animate={{ y: 0 }}
-        className="hidden lg:flex mw items-center bg-[#0000001A] backdrop-blur-[50px] py-3 md:py-5 px-[30px] lg:px-20 w-full justify-between"
+        className="hidden lg:flex mw items-center bg-[#002245] backdrop-blur-[50px] py-3 md:py-5 px-[30px] lg:px-20 w-full justify-between"
       >
         <Link href={"/"}>
           <Image
@@ -43,16 +43,12 @@ export default function Navbar() {
           />
         </Link>
 
-        <div className="flex items-center gap-12 font-normal text-[18px] capitalize">
+        <div className="flex items-center gap-12 text-base font-semibold">
           {navItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className={`${
-                pathname === item.href
-                  ? "font-bold uppercase"
-                  : "font-normal capitalize"
-              }`}
+              className={`${pathname === item.href ? "uppercase" : ""}`}
             >
               {item.label}
             </Link>
@@ -61,7 +57,7 @@ export default function Navbar() {
 
         <Link href={"#"}>
           <button
-            className="py-[12px] px-[26px] border border-white rounded-[8px] font-bold text-[18px]"
+            className="py-3 px-6 rounded-lg font-normal text-base bg-[#004C99] w-[232px]"
             title="book a call"
             aria-label="book a call"
           >
@@ -72,7 +68,7 @@ export default function Navbar() {
       <motion.nav
         initial={{ y: "-100vh" }}
         animate={{ y: 0 }}
-        className="flex lg:hidden mw items-center bg-[#0000001A] backdrop-blur-[50px] py-3 md:py-5 px-[30px] lg:px-20 w-full justify-between"
+        className="flex lg:hidden mw items-center bg-[] backdrop-blur-[50px] py-3 md:py-5 px-[30px] lg:px-20 w-full justify-between"
       >
         <Link href={"/"}>
           <Image
