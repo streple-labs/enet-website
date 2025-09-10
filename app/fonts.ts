@@ -1,6 +1,7 @@
 import {
   Anton,
   Geist_Mono,
+  Josefin_Sans,
   Lato,
   Montserrat,
   Open_Sans,
@@ -39,6 +40,11 @@ export const titillium_web = Titillium_Web({
 });
 
 export const geist_mono = Geist_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
+
+export const josefin_sans = Josefin_Sans({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden py-12 lg:py-[116px] px-8 md:px-20 w-full flex flex-col lg:flex-row justify-between gap-8 mw bg-gradient-to-b from-[#002245] to-black/20">
+    <footer className="relative overflow-hidden py-20 lg:py-[116px] px-8 md:px-20 w-full flex flex-col lg:flex-row justify-between gap-8 mw bg-gradient-to-b from-[#002245] to-black/20">
       <p
         className={`${montserrat.className} opacity-[7%] font-extrabold text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[120px] tracking-[4%] absolute left-1/2 -translate-x-1/2 bottom-0 whitespace-nowrap`}
       >
